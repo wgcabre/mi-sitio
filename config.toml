@@ -1,6 +1,6 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'Mi Sitio'
+title = 'Bogota Patrimonio Material'
 theme = "tale"
 
 [menu]
@@ -16,3 +16,6 @@ theme = "tale"
     title = "Post"
     url = "/post/"
     weight = 0
+
+    [params]
+    css = ["css/estilos.css"]

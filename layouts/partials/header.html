@@ -1,0 +1,9 @@
+		<nav class="nav">
+			<div class="nav-container">
+				<a href="{{ "/" | relURL }}">
+					<img src="{{.Site.BaseURL}}images/Vista Panoramica.jpg" alt="">
+					<h2 class="nav-title">{{ .Site.Title }}</h2>
+				</a>
+				{{ partial "header-menu.html" . }}
+			</div>
+		</nav>
